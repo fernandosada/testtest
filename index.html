@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<script>console.log('Hello from sw.js');</script>
+<script></script>
+<head>
+	<title></title>
+</head>
+<body>
+<img src="image.png">
+
+<script>
+if (navigator.serviceWorker){
+	 navigator.serviceWorker.register('/sw.js');
+}
+</script>
+</body>
+</html>
